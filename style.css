@@ -3,3 +3,95 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+header {
+  padding: 0;
+}
+
+.logo {
+  padding: 0;
+}
+
+.header-links {
+  padding: 0;
+}
+
+.card {
+  padding: 0;
+}
+
+.first {
+  padding: 0;
+}
+
+.second {
+  padding: 0;
+}
+
+.third {
+  padding: 0;
+}
+
+.cta {
+  padding: 0;
+}
+
+.left-group {
+  padding: 0;
+}
+
+.hero {
+  padding: 0;
+}
+
+.first-card-subtext {
+  padding: 0;
+}
+
+.regular-button {
+  padding: 0;
+}
+
+.big-image {
+  padding: 0;
+}
+
+.card-title {
+  padding: 0;
+}
+
+.tile-group {
+  padding: 0;
+}
+
+.tile {
+  padding: 0;
+}
+
+.tile-image {
+  padding: 0;
+}
+
+.big-quote {
+  padding: 0;
+}
+
+.quote-attribution {
+  padding: 0;
+}
+
+.cta-header {
+  padding: 0;
+}
+
+.cta-subtext {
+  padding: 0;
+}
+
+.cta-button {
+  padding: 0;
+}
+
+footer {
+  padding: 0;
+}
