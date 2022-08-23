@@ -11,7 +11,8 @@ header {
 }
 
 header, footer, .first {
-  background-color: #1b1b20; /* My guess */ 
+  /* background-color: #1b1b20; /* My guess */ 
+  background-color: #1f2937;
 }
 
 ul {
@@ -21,7 +22,8 @@ ul {
 }
 
 a {
-  color: #999; /* My guess */ 
+  /* color: #999; /* My guess */ 
+  color: #e5e7eb;
   text-decoration: none;
 }
 
@@ -31,9 +33,10 @@ a {
 
 .logo {
   padding: 0;
-  color: #ddd; /* My guess */ 
+  /* color: #ddd; /* My guess */ 
+  color: #f9faf8;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .header-links {
@@ -75,6 +78,7 @@ a {
   padding: 20px 40px;
   justify-content: space-around;
   align-items: center;
+  border-radius: 5px;
 }
 
 .left-group {
@@ -88,14 +92,17 @@ a {
 }
 
 .hero {
-  font-size: 36px;
-  color: #eee /* My guess */ 
+  font-size: 48px;
+  font-weight: bolder;
+  /* color: #eee /* My guess */ 
+  color: #f9faf8;
 }
 
 .hero-subtext {
-  font-size: 14px;
+  font-size: 18px;
   max-width: 50%;
-  color: #aaa; /* My guess */ 
+  /* color: #aaa; /* My guess */ 
+  color: #e5e7eb;
 }
 
 .regular-button {
@@ -184,5 +191,9 @@ a {
 }
 
 footer {
-  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc; /* My guess */
+  min-height: 40px;
 }
