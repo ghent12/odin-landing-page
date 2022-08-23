@@ -5,54 +5,120 @@
 }
 
 header {
-  padding: 0;
+  justify-content: space-around;
+  display: flex;
+  padding: 8px 20px;
+}
+
+header, footer, .first {
+  background-color: #1b1b20; /* My guess */ 
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+a {
+  color: #999; /* My guess */ 
+  text-decoration: none;
+}
+
+.content-container {
+  padding: 0px;
 }
 
 .logo {
   padding: 0;
+  color: #ddd; /* My guess */ 
+  font-weight: 900;
+  font-size: 18px;
 }
 
 .header-links {
-  padding: 0;
+  color: #bbb; /* My guess */ 
+  font-size: 12px;
 }
 
 .card {
-  padding: 0;
+  display: flex;
 }
 
 .first {
-  padding: 0;
+  padding: 80px 160px;
+  justify-content: space-around;
 }
 
 .second {
-  padding: 0;
+  background-color: #eee;  /* My guess */
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .third {
-  padding: 0;
+  background-color: #ccc; /* My guess */
+  padding: 80px 80px;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cta {
-  padding: 0;
+  background-color: #38f; /* My guess */
+  color: #fff; /* My guess */
+  margin: 80px 160px;
+  padding: 20px 40px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .left-group {
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#cta-left-group {
+  flex: 4 0 auto;
 }
 
 .hero {
-  padding: 0;
+  font-size: 36px;
+  color: #eee /* My guess */ 
 }
 
-.first-card-subtext {
-  padding: 0;
+.hero-subtext {
+  font-size: 14px;
+  max-width: 50%;
+  color: #aaa; /* My guess */ 
 }
 
 .regular-button {
-  padding: 0;
+  color: #fff; /* My guess */ 
+  background-color: #38f; /* My guess */ 
+  padding: 4px 12px;
+  border-radius: 6px;
+  border:none;
+  max-width: 90px;
+  max-height: 28px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.image-container {
+  background: #999; /* My guess */
+  max-width: 600px;
+  max-height: 350px;
 }
 
 .big-image {
+  width: 600px;
+  height: 350px;
   padding: 0;
 }
 
@@ -61,23 +127,46 @@ header {
 }
 
 .tile-group {
-  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 80px;
+  gap: 20px;
 }
 
 .tile {
-  padding: 0;
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
 }
 
-.tile-image {
-  padding: 0;
+.tile-image-container {
+  width: 145px;
+  height: 145px;
+  border-color: #38f; /* My guess */
+  border-width: 2px;
+  border-radius: 4px;
+  border-style: solid;
+  padding: 12px;
+}
+
+.caption {
+  text-align: center;
 }
 
 .big-quote {
-  padding: 0;
+  padding: 0 80px;
+  font-size: 20px;
 }
 
 .quote-attribution {
-  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+  align-self: flex-end;
+  padding: 0 80px;
 }
 
 .cta-header {
@@ -88,8 +177,10 @@ header {
   padding: 0;
 }
 
-.cta-button {
-  padding: 0;
+#cta-button {
+  border-style: solid;
+  border-width: 2px;
+  border-color:#fff; /* My guess */ 
 }
 
 footer {
